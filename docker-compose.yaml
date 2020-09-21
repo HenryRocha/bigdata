@@ -13,3 +13,4 @@ services:
             - "33062:3306"
         volumes:
             - ./db-files:/var/lib/mysql
+            - .:/home/henryrocha
