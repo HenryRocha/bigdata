@@ -12,7 +12,7 @@ __b) [0,5 ponto] Desenhe o diagrama do modelo entidade-relacionamento deste prob
 
 __c) [0,5 ponto] O que acontece com o banco de dados como um todo quando um búfalo é deletado da tabela buffalo?__
 
-
+Quando um buffalo é deletado, devido a configuração `ON DELETE CASCADE` na tabela de `intimida`, todas as linhas em que esse buffalo aparecia também serão deletadas.
 
 __d) [1,0 ponto] Quantos búfalos agressores diferentes existem? (Dica: COUNT(DISTINCT blablabla)é diferente de DISTINCT COUNT(blablabla)).__
 
